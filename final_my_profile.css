@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+    padding: 15px;
+    border: none;
+    border-bottom: 1.25px solid #363030;
+    text-align: justify;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.nav-link {
+    color: white ;
+    font-size: 1.1rem;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.certification-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.certification-container img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.certification-description {
+    flex: 1;
+}
+
+.certification-description h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.certification-description p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.glyphicon {
+    margin-right: 10px;
+}
+
+.youtube-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.youtube-container img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.footer {
+    background-color: black; /* Different color for the footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+}
+
+.footer .contact-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .contact-icons div {
+    margin: 0 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.footer img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
