@@ -1,0 +1,67 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    h1, h4, h5, h3 {
+        text-align: center;
+        color: #333;
+    }
+    h1 {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 0;
+    }
+    h4 {
+        margin-top: 10px;
+    }
+    hr {
+        border: 1px solid #ddd;
+    }
+    input[type="text"], select {
+        width: 80%;
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    label {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    input[type="checkbox"], input[type="radio"] {
+        margin-right: 10px;
+    }
+    button[type="submit"], button[type="button"] {
+        background-color: #274792;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin: 20px auto;
+    }
+    button[type="submit"]:hover, button[type="button"]:hover {
+        background-color: #45a049;
+    }
+    .container {
+        width: 50%;
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    .center {
+        text-align: center;
+    }
+    
